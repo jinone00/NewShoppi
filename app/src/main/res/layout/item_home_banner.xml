@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toTopOf="@id/bg_banner_product_detail"
         app:layout_constraintEnd_toEndOf="@id/iv_banner_image"
         app:layout_constraintStart_toStartOf="@id/iv_banner_image"
-        tools:text="다스한 겨울\n준비하기"
+        tools:text="다스한 겨울\n준비하기"/>
 
     <TextView
         android:id="@+id/tv_banner_detail_product_label"
@@ -106,6 +106,7 @@
         tools:text = "89,000원"/>
 
     <TextView
+        android:id="@+id/tv_banner_detail_product_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
