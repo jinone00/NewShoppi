@@ -5,7 +5,7 @@
     app:startDestination="@id/navigation_home">
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.newshoppi.HomeFragment"
+        android:name="com.example.newshoppi.ui.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_home_to_product_detail"
@@ -13,14 +13,14 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="com.example.newshoppi.CartFragment"
+        android:name="com.example.newshoppi.ui.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/navigation_category"
-        android:name="com.example.newshoppi.CategoryFragment"
+        android:name="com.example.newshoppi.ui.CategoryFragment"
         android:label="CategoryFragment" />
     <fragment
         android:id="@+id/navigation_product_detail"
-        android:name="com.example.newshoppi.ProductDetailFragment"
+        android:name="com.example.newshoppi.ui.ProductDetailFragment"
         android:label="ProductDetailFragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.newshoppi
+package com.example.newshoppi.ui
 
 import android.content.Intent
 import android.os.Bundle

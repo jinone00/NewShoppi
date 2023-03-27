@@ -1,4 +1,4 @@
-package com.example.newshoppi
+package com.example.newshoppi.model
 
 import com.google.gson.annotations.SerializedName
 

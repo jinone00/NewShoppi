@@ -1,10 +1,11 @@
-package com.example.newshoppi
+package com.example.newshoppi.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.newshoppi.R
 
 class ProductDetailFragment : Fragment(){
     override fun onCreateView(
